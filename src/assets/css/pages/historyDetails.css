@@ -1,0 +1,56 @@
+.history_left {
+    width: 65%;
+    height: 500px;
+    box-shadow: 0 0 10px #a1a1a1;
+}
+
+.history_right {
+    width: 30%;
+}
+
+.history_content {
+    width: 100%;
+    box-shadow: 0 0 10px #a1a1a1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.history_block_row {
+    width: 95%;
+    padding: 15px;
+    color: #414141;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.history_car_block {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    background: #1d70fc;
+    color: white;
+    margin: 10px auto;
+    position: relative;
+}
+
+.history_car_block img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    top: -20px;
+    right: 20px;
+}
+
+.history_star_block {
+    width: 90%;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+}

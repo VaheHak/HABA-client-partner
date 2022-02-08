@@ -1,0 +1,230 @@
+.orders__content {
+    color: black;
+    width: 100%;
+    padding: 75px 0 50px;
+}
+
+.order_list_item {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.order_list_title {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order_list_title span {
+    padding: 3px 10px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.order_list_row {
+    width: 90%;
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-radius: 4px 8px 8px 4px;
+    overflow-y: auto;
+    mask-image: linear-gradient(to top, transparent, black), linear-gradient(to left, transparent 5px, black 5px);
+    mask-size: 100% 20000px;
+    mask-position: left bottom;
+    transition: mask-position 0.3s, -webkit-mask-position 0.3s;
+}
+
+.order_list_row::-webkit-scrollbar {
+    width: 8px;
+}
+
+.order_list_row:hover {
+    -webkit-mask-position: left top;
+}
+
+.order_block_row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.order_block {
+    width: 95%;
+    box-shadow: 0 0 8px gray;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px dotted gray;
+    display: block;
+}
+
+.order_block_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.order_dates {
+    font-size: smaller;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.order_driver_block {
+    width: 95%;
+    padding: 8px 10px;
+    color: #414141;
+    box-shadow: 0 0 8px gray;
+    border-top: 1px dotted gray;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.order_driver_block span {
+    width: 60%;
+}
+
+.order_driver_image {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.noData_row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: gray;
+    margin-top: 20px;
+}
+
+.noData {
+    font-size: 50px;
+    color: gray;
+}
+
+.order_block_icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: #0076FF2E;
+    color: #0076FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.driver_call {
+    width: 35px;
+    height: 35px;
+    background: #212121;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.add_order_box {
+    width: 49%;
+    height: 50px;
+    background: #FFFFFF;
+    box-shadow: 0 0 28px rgba(84, 101, 126, 0.2);
+    border-radius: 15px;
+    color: #212121;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.addOrder_box_icon {
+    width: 40px;
+    height: 40px;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.addOrder_box_icon2 {
+    width: 40px;
+    height: 40px;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.add_shop_button {
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-size: 24px;
+    background: #0076FF;
+    box-shadow: 0 0 28px rgba(84, 101, 126, 0.2);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.select_shop {
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+    overflow-x: auto;
+}
+
+.select_shop_icon {
+    color: gray;
+    background: #FFFFFF;
+    box-shadow: 0 0 18px rgba(84, 101, 126, 0.15);
+    border-radius: 8px;
+    display: flex;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.chooseDriver_left {
+    width: 30%;
+    height: 80vh;
+    background: #FFFFFF;
+    box-shadow: 0 0 28px rgba(84, 101, 126, 0.2);
+    border-radius: 15px;
+    padding: 10px 30px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    z-index: 10;
+}
+
+.chooseDriver {
+    width: 100%;
+    background: #FFFFFF;
+    height: 100vh;
+    padding-top: 70px;
+    position: relative;
+}

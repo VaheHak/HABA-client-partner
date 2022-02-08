@@ -1,0 +1,85 @@
+.client_content {
+    width: 100%;
+    padding: 8px;
+}
+
+.clients_left {
+    width: 49%;
+}
+
+.clients_left_empty {
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients_right {
+    width: 49%;
+    height: 500px;
+    filter: drop-shadow(0px 2px 28px rgba(84, 101, 126, 0.25));
+    border-radius: 15px;
+    position: relative;
+}
+
+.add_client_button {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.update_client_button {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.add_client_button div {
+    width: 55%;
+}
+
+.update_client_button div {
+    width: 70%;
+}
+
+.add_client_icon {
+    width: 40px;
+    height: 40px;
+    background: #E7EBED;
+    color: #212121;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.add_client_label {
+    width: 90%;
+}
+
+.order_driver_item {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 8px;
+    padding: 8px;
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0 0 28px rgba(84, 101, 126, 0.2);
+    border-radius: 15px;
+    z-index: 2;
+    top: 10px;
+    left: 10px;
+}
+
+.order_drivers_info {
+    width: 60%;
+    margin: 0 8px;
+}
+
+.order_drivers_info p {
+    font-size: 11px;
+}

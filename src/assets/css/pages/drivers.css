@@ -1,0 +1,111 @@
+.driver_block {
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    margin: 11px;
+    padding: 15px;
+}
+
+.users__content {
+    color: black;
+    padding: 100px 20px;
+    width: 100%;
+}
+
+.driver__add_content {
+    width: 50%;
+}
+
+.driver__add_button {
+    width: 45%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    padding: 0 3px;
+    margin-bottom: 30px;
+}
+
+.users__filter_row {
+    width: 100%;
+    padding: 20px;
+}
+
+.fLR {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter__label_row {
+    width: 49%;
+}
+
+.filter__label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.filter_button {
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+}
+
+.filter_button button {
+    width: 100%;
+}
+
+.user__create_content {
+    width: 100%;
+}
+
+.user__create_label {
+    display: block;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px !important;
+}
+
+.user__create_input {
+    width: 100%;
+}
+
+.add__user {
+    background-color: #212121 !important;
+    border-radius: 8px !important;
+    color: white !important;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    text-transform: none !important;
+}
+
+.user__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    position: relative;
+    margin-bottom: 55px;
+}
+
+.driver__update_label {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    height: 77px;
+    margin-bottom: 20px;
+}
+
+.user__update_input {
+    width: 100%;
+}
+
+.add__buttons_row {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

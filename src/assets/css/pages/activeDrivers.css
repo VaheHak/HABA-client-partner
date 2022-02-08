@@ -1,0 +1,186 @@
+.active_drivers_left {
+    width: 22%;
+    height: 100vh;
+    border-right: 1px solid gray;
+    padding: 68px 8px;
+    overflow-y: auto;
+}
+
+.active_drivers_right {
+    width: 78%;
+    height: 100vh;
+    padding: 70px 0 0;
+}
+
+.active_drivers_list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    overflow-y: auto;
+    max-height: 100%;
+}
+
+.active_drivers_item {
+    width: 100%;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.active_driver_item {
+    width: 100%;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.active_drivers_item.sad {
+    color: #1d70fc;
+    text-shadow: 1px 1px 1px #cccccc;
+}
+
+.active_drivers_avatar {
+    position: relative;
+}
+
+.active_drivers_avatar img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+
+.active_drivers_info {
+    width: 60%;
+}
+
+.active_driver_info {
+    width: 80%;
+    margin-left: 8px;
+}
+
+.active_driver_info p {
+    font-size: 11px;
+}
+
+.driver_rate {
+    width: 45px;
+    height: 16px;
+    background: #212121;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 5px;
+    font-size: small;
+    margin-top: 8px;
+}
+
+.driver_rate svg {
+    color: #FFDB4A;
+    font-size: small;
+}
+
+.active_drivers_avatar .on {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #00b600;
+    position: absolute;
+    bottom: 2px;
+    right: 1px;
+    border: 1px solid white;
+}
+
+.active_drivers_avatar .off {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: rgba(0, 128, 0, 0.32);
+    position: absolute;
+    bottom: 2px;
+    right: 1px;
+    border: 1px solid white;
+}
+
+.active_drivers_filter {
+    width: 35%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.active_drivers_filter div {
+    width: 30%;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+
+.active_drivers_filter .middle {
+    border-right: 1px solid whitesmoke;
+    border-left: 1px solid whitesmoke;
+}
+
+.active_drivers_filter .green {
+    background: #BBD9FB;
+    color: #0076FF;
+    border-radius: 5px;
+}
+
+.driver_map_contact {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.driver_map_contact a {
+    margin-bottom: 8px;
+}
+
+.driver_map_contact img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.driver_contact_item {
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.driver_contact_icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: #f0efeb;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

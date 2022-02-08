@@ -1,0 +1,23 @@
+.subscribe_content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subscribe_item {
+    width: 80%;
+    background: #FFFFFF;
+    box-shadow: 0 0 18px rgba(84, 101, 126, 0.2);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.subscribe_price p {
+    color: #0076FF;
+}
